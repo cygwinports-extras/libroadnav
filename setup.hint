@@ -1,0 +1,9 @@
+category: Net
+requires: cygwin wx26-devel
+sdesc: "Roadnav street map library (static)"
+ldesc: "LibRoadnav is a library that makes mapping data easily 
+accessible to developers. It can automatically download mapping data 
+from a variety of free online sources, process that data, and make 
+street maps of any place in the United States available to developers 
+and their applications. It can also produce turn by turn directions from 
+one place in the US to another."

@@ -1,0 +1,113 @@
+libroadnav
+------------------------------------------
+LibRoadnav is a library that makes mapping data easily accessible to
+developers. It can automatically download mapping data from a variety
+of free online sources, process that data, and make street maps of
+any place in the United States available to developers and their
+applications. It can also produce turn by turn directions from one
+place in the US to another.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  wx26-devel-2.6.4.0-4
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20080523-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://roadnav.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/roadnav/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libroadnav-0.19-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libroadnav-0.19-X.cygport all
+
+This will create:
+  /usr/src/libroadnav-0.19-X-src.tar.bz2
+  /usr/src/libroadnav-0.19-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/include/libroadnav/Address.h
+  /usr/include/libroadnav/Angle.h
+  /usr/include/libroadnav/AutoComplete.h
+  /usr/include/libroadnav/Constants.h
+  /usr/include/libroadnav/Debug.h
+  /usr/include/libroadnav/DetailSettings.h
+  /usr/include/libroadnav/Direction.h
+  /usr/include/libroadnav/DownloadFiles.h
+  /usr/include/libroadnav/DownloadThread.h
+  /usr/include/libroadnav/Map.h
+  /usr/include/libroadnav/MapAbbreviations.h
+  /usr/include/libroadnav/MapAppearanceSettings.h
+  /usr/include/libroadnav/MapControl.h
+  /usr/include/libroadnav/MapControlData.h
+  /usr/include/libroadnav/MapControlDataEntry.h
+  /usr/include/libroadnav/MapControlDataEntry_Std.h
+  /usr/include/libroadnav/MapControlDataImporter.h
+  /usr/include/libroadnav/MapControlDataImporter_CountyBoundaries.h
+  /usr/include/libroadnav/MapControlDataImporter_GNIS.h
+  /usr/include/libroadnav/MapControlDataImporter_GNISDECI.h
+  /usr/include/libroadnav/MapControlDataImporter_GPX.h
+  /usr/include/libroadnav/MapControlDataImporter_OSM.h
+  /usr/include/libroadnav/MapControlDataImporter_StateBoundaries.h
+  /usr/include/libroadnav/MapControlDataImporter_TigerLine.h
+  /usr/include/libroadnav/MapControlData_Foundation.h
+  /usr/include/libroadnav/MapControlData_Tiles.h
+  /usr/include/libroadnav/MapCounty.h
+  /usr/include/libroadnav/MapDrawing.h
+  /usr/include/libroadnav/MapLookup.h
+  /usr/include/libroadnav/MapMarker.h
+  /usr/include/libroadnav/MapPolygon.h
+  /usr/include/libroadnav/MapRepresentations.h
+  /usr/include/libroadnav/MapState.h
+  /usr/include/libroadnav/MapSupport.h
+  /usr/include/libroadnav/MapTrack.h
+  /usr/include/libroadnav/MapZip.h
+  /usr/include/libroadnav/Point.h
+  /usr/include/libroadnav/ProgressDialog.h
+  /usr/include/libroadnav/Serialization.h
+  /usr/include/libroadnav/StringTable.h
+  /usr/include/libroadnav/Terraserver.h
+  /usr/include/libroadnav/URLs.h
+  /usr/include/libroadnav/UTM.h
+  /usr/include/libroadnav/UniqueID.h
+  /usr/include/libroadnav/UniqueIDGenerator.h
+  /usr/include/libroadnav/UnitConversion.h
+  /usr/include/libroadnav/Zip.h
+  /usr/include/libroadnav/wxAntiAliasedDC.h
+  /usr/lib/libroadnav.a
+  /usr/share/doc/libroadnav-0.19/AUTHORS
+  /usr/share/doc/libroadnav-0.19/COPYING
+  /usr/share/doc/libroadnav-0.19/ChangeLog
+  /usr/share/doc/libroadnav-0.19/INSTALL
+  /usr/share/doc/libroadnav-0.19/README
+
+------------------
+
+Port Notes:
+
+----- version 0.19-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
