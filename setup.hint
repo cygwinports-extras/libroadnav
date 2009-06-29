@@ -1,5 +1,5 @@
 category: Net
-requires: cygwin wx26-devel
+requires: wx26-devel
 sdesc: "Roadnav street map library (static)"
 ldesc: "LibRoadnav is a library that makes mapping data easily 
 accessible to developers. It can automatically download mapping data 
